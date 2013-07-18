@@ -425,3 +425,54 @@ Small Device Styles
   }
 
 }
+
+/*******************************************************************************
+Custom Styles
+*******************************************************************************/
+
+.breadcrumb {
+  width: 270px;
+  list-style-type: none;
+}
+
+.breadcrumb li {
+  display: inline;
+  padding-left: 0
+}
+.clearfix {
+  clear: both;
+}
+
+img.mugshot {
+  width: 65px;
+  float: left;
+  margin-right: 20px;
+}
+
+.project {
+  height: 180px;
+  width: 270px;
+  float: left;
+  margin: 5px;
+  padding: 15px 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+}
+
+.project h5, .project p {
+  margin: 5px 0;
+}
+
+.project--description {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project--links {
+  position: absolute;
+  bottom: 0;
+}
+
