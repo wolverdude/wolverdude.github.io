@@ -431,8 +431,8 @@ Custom Styles
 *******************************************************************************/
 
 .breadcrumb {
-  width: 270px;
   list-style-type: none;
+  width: inherit;
 }
 
 .breadcrumb li {
